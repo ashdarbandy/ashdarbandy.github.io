@@ -1,0 +1,24 @@
+body,
+html {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-family: 'EB Garamond', serif, monospace;
+    text-transform: lowercase;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body, html::before {    
+    content: "";
+    background-image: url(header01.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
